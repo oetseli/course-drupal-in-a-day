@@ -50,7 +50,7 @@ docker pull drupal
 ### 4) Käynnistä Drupal
 Aja komentorivillä seuraava komento:
 ```
-docker run -it --rm -p 80:80 drupal
+docker run -it -p 80:80 drupal
 ```
 
 ### 5) Testaa
